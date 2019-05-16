@@ -1,0 +1,10 @@
+spring:
+  data:
+    cassandra:
+      keyspaceName: kavita
+      contactPoints: localhost
+      port: 9042
+      schemaAction: CREATE_IF_NOT_EXISTS
+
+server:
+  port: 9090
